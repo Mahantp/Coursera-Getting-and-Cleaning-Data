@@ -17,16 +17,20 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Steps to work on this course project
 
-1. Download the data source and unzip. Copy the contents of  ```UCI HAR Dataset``` folder into Coursera directory where run_analysis.R is located. 
+1)Download the data source and unzip. Copy the contents of  ```UCI HAR Dataset``` folder into Coursera directory where run_analysis.R is located. 
 
 [mpattan-mba13:~/Google Drive/RPrograms/Coursera] mpattan% pwd
+
 /Users/mpattan/Google Drive/RPrograms/Coursera
+
 [mpattan-mba13:~/Google Drive/RPrograms/Coursera] mpattan% ls
+
 README.txt		features.txt		run_analysis.R		tidyData.txt
 activity_labels.txt	features_info.txt	test			train
+
 [mpattan-mba13:~/Google Drive/RPrograms/Coursera] mpattan% 
 
-2. Set working directory to  directory containing run_analysis.R. This workign directory will also contain data set downloaded in step #1 above. 
+2)Set working directory to  directory containing run_analysis.R. This workign directory will also contain data set downloaded in step #1 above. 
 
 Run ```source("run_analysis.R")```, then it will generate a new file ```tidyData.txt``` in your working directory.
 
